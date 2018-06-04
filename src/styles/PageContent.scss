@@ -1,0 +1,19 @@
+.PageContent {
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    overflow-x: hidden;
+    margin-left: 15px;
+    padding-right:15px;
+    padding-bottom: 70px;
+
+    // if md and up we have a sidebar
+    @media (min-width: 768px) {
+        margin-left: 280px;
+    }
+
+    &.hasSearchBar {
+        margin-top: 40px;
+    }
+}

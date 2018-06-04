@@ -1,0 +1,17 @@
+.SearchBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    input, input:focus {
+        background-color: #495057;
+        border-radius: 0px;
+        border: 0px;
+        padding: 10px;
+        font-size: 20px;
+        color: #e2e0e0;
+        outline: 0px none;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,13 @@
+.PageContent {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  overflow-x: hidden;
+  margin-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 70px; }
+  @media (min-width: 768px) {
+    .PageContent {
+      margin-left: 280px; } }
+  .PageContent.hasSearchBar {
+    margin-top: 40px; }
